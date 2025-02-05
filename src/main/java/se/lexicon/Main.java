@@ -13,10 +13,9 @@ public class Main {
 
 
         var vm = new VendingMachineImpl(prodArray);
-
         var vm2 = new VendingMachineImpl(twixProduct, cocacolaProduct, bountyProduct);
 
-        System.out.println(vm.getProducts());
+        System.out.println(vm2.getProducts());
         vm.addCurrency(20);
         System.out.println("Deposit Pool: " + vm.getBalance());
         System.out.println(vm.getDescription(1));

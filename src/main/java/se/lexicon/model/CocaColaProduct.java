@@ -8,7 +8,7 @@ public class CocaColaProduct extends Product {
 
     @Override
     public String examine() {
-        return "Product ID: " + getId() + ", Product Name: " + getProductName() + ", Price: ";
+        return "Product ID: " + getId() + ", Product Name: " + getProductName() + ", Price: " + getPrice();
     }
 
     @Override
