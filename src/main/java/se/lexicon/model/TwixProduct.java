@@ -13,6 +13,6 @@ public class TwixProduct extends Product{
 
     @Override
     public String use() {
-        return "Warning: " + getProductName() + " contains milk & eggs";
+        return getProductName() + " contains milk & eggs";
     }
 }

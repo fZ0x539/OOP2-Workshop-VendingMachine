@@ -1,8 +1,8 @@
 package se.lexicon.model;
 
-public class CocaColaProduct extends Product {
+public class BountyProduct extends Product{
 
-    public CocaColaProduct(double price, String productName) {
+    public BountyProduct(double price, String productName){
         super(price, productName);
     }
 
@@ -13,6 +13,6 @@ public class CocaColaProduct extends Product {
 
     @Override
     public String use() {
-        return getProductName() + " contains large amounts of sugar";
+        return getProductName() + "is a coconut-flavored chocolate containing both milk & eggs";
     }
 }

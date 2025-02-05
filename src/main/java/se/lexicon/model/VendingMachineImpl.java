@@ -6,7 +6,7 @@ public class VendingMachineImpl implements iVendingMachine {
     private int depositPool;
 
 
-    public VendingMachineImpl(Product[] products) {
+    public VendingMachineImpl(Product... products){
         this.products = products;
         this.depositPool = 0;
     }
@@ -67,7 +67,7 @@ public class VendingMachineImpl implements iVendingMachine {
         }
         for (Product product : products) {
             if (product.getId() == productNumber) {
-                return product.examine();
+                return product.use();
             }
         }
         return "Product not found";
