@@ -13,6 +13,6 @@ public class CocaColaProduct extends Product {
 
     @Override
     public String use() {
-        return getProductName() + " contains large amounts of sugar";
+        return getProductName() + " is a cola-flavored soft drink containing large amounts of sugar";
     }
 }

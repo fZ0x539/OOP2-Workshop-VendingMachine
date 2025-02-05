@@ -18,8 +18,9 @@ public class Main {
         System.out.println(vm2.getProducts());
         vm.addCurrency(20);
         System.out.println("Deposit Pool: " + vm.getBalance());
-        System.out.println(vm.getDescription(1));
-        System.out.println(vm.getDescription(2));
+        System.out.println(vm2.getDescription(1));
+        System.out.println(vm2.getDescription(2));
+        System.out.println(vm2.getDescription(3));
         vm.makePurchase(1);
         int change = vm.endSession();
 

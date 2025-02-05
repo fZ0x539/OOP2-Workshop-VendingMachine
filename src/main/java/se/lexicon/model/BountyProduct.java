@@ -13,6 +13,6 @@ public class BountyProduct extends Product{
 
     @Override
     public String use() {
-        return getProductName() + "is a coconut-flavored chocolate containing both milk & eggs";
+        return getProductName() + " is a coconut-flavored chocolate containing both milk & eggs";
     }
 }

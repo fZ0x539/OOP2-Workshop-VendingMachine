@@ -13,6 +13,6 @@ public class TwixProduct extends Product{
 
     @Override
     public String use() {
-        return getProductName() + " contains milk & eggs";
+        return getProductName() + " is a chocolate containing milk & eggs that consists of a biscuit with caramel topping wrapped in chocolate";
     }
 }
